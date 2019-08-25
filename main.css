@@ -30,9 +30,15 @@ body {
 }
 .card {
     width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .card h2 {
    
+}
+.card-section-1 img {
+    width: 200px;
 }
 .page-footer {
     display: flex;
