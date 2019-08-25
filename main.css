@@ -22,8 +22,9 @@ body {
     margin: 1em;
     color: whitesmoke;
 }
-.content-container {
+.main-body-container {
     padding-bottom: 2.5rem;
+    display: flex;
 }
 .page-footer {
     display: flex;
