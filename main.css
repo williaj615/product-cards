@@ -25,6 +25,14 @@ body {
 .main-body-container {
     padding-bottom: 2.5rem;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 33%;
+}
+.card h2 {
+   
 }
 .page-footer {
     display: flex;
