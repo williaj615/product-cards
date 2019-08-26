@@ -1,85 +1,133 @@
-body {
+body { /** this styling will apply to everything on the page until overwritten **/
     margin: 0;
     font-family: 'Playfair Display', serif;
 }
-.page-container {
+.page-container { /** this styling will apply to the page header, main body and footer **/
     position: relative;
     min-height: 100vh;
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
-.page-header {
+.page-header { /** this styling will apply to the page header **/
     display: flex;
     background-color: darkslateblue;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-.page-header a {
+.page-header a { /** applies to header links **/
     margin: 1em;
     color: cadetblue;
 }
-.page-header h1 {
+.page-header h1 { /** applies to page Heading **/
     margin: 1em;
     color: whitesmoke;
 }
-.main-body-container {
+.main-body-container { /** this container is styled as an item of ^page-container in a column, styling here after flex will apply to the card divs **/
     margin-top: 1em;
-    margin-bottom: 1em;
     width: 100%;
     padding-bottom: 2.5rem;
     display: flex;
-    align-content: space-around;
-    justify-content: space-evenly;
+    flex-direction: row;
     flex-wrap: wrap;
+    /**align-content: space-around;**/
+    justify-content: space-evenly; /**this is what is giving the space between and on the sides of the cards**/
 }
+
+
+
+
 .card {
-    
     width: 31%;
-    max-height: 675px;
+    margin-bottom: 1em;
     box-shadow: 0 0 1px 1px lightgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
-.card header {
+.card-header {
    border: solid 1px lightblue;
    width: 100%;
    margin-bottom: 10px;
-   margin-left: auto;
-   margin-right: auto;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
 }
+
+
+
 .card-section-1 {
+    width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
-}
-.card-section-1 img {
-    width: 200px;
+    
     
 }
-.card-section-1 p {
-    max-width: 75%;
-    max-height: 20%;
+.card-section-1 img {
+    width: 200px;   
 }
+.card-section-1 p {
+    
+}
+
 .availability {
     width: 100%;
     color: yellow;
     background-color: gray;
 }
+
+
+
+
 .card-section-2 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 1em;
 }
 .card-section-2 header {
-    font-weight: bold;
-    text-decoration: underline;
     border: none;
+    font-size: 1.5em;
+    
 }
+.card-section-2 p {
+    font-size: 1em;
+    margin: auto 0;
+    font-weight: 700;
+}
+.card-section-2 footer {
+    font-size: 0.5rem;
+}
+
+
+
+
+.card-section-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.card-section-3 header {
+    border: none;
+    font-size: 1.5em;
+}
+.card-section-3 p {
+    margin: auto 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+
+
+
+
+
 .page-footer {
     display: flex;
     background-color: darkslateblue;
