@@ -1,3 +1,4 @@
+* {-webkit-font-smoothing: antialiased;}
 body { /** this styling will apply to everything on the page until overwritten **/
     margin: 0;
     font-family: 'Playfair Display', serif;
