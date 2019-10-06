@@ -4,7 +4,7 @@
 Run this application to view the available products for a given site along with their prices and specifications.
 
 ## Screenshots
-![Product Cards Preview](screenshots/mainview.png
+![Product Cards Preview](https://raw.githubusercontent.com/williaj615/product-cards/master/screenshots/main_view.png
 )
 
 ## How to run
